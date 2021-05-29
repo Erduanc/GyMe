@@ -134,7 +134,7 @@ public class Register extends JFrame implements ActionListener{
 					return 1;
 				}
 				for(int j = 0; j < nameParts[i].length(); j++) {
-					if(!Character.isUpperCase(nameParts[i].charAt(1))) {
+					if(!Character.isUpperCase(nameParts[i].charAt(0))) {
 						return 1;
 					}else if(!Character.isLetterOrDigit(nameParts[i].charAt(j))) {
 						return 1;
